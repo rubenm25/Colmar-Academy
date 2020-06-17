@@ -1,7 +1,11 @@
 body {
-  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
   font-family: Verdana, sans-serif;
 }
+
+/* HEADER SECTION */
+
 header {
   background-color: #fff;
   position: fixed;
@@ -40,4 +44,109 @@ nav a {
 span {
   color: #808080;
   font-weight: 300;
+}
+
+.main {
+  padding-top: 64px;
+}
+
+ /* BANNER SECTION */
+
+.banner {
+  height: 700px;
+  background-color: #DCDCDC;
+}
+
+.banner img {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.start {
+  margin: auto;
+}
+
+.start h1 {
+  color: #484848;
+  font-size: 3em;
+}
+
+.start p {
+  color: #585858;
+  font-size: 1.5em;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.start a {
+  text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #484848;
+}
+
+.btn p {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* INFO SECTION */
+
+.left {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left img {
+  padding-top: 16px;
+  width: 100%;
+}
+.right {
+  padding: 32px 24px;
+  width: 40%;
+}
+
+.thumbnail {
+  background-color: ;
+}
+
+.thumbnail img {
+  padding: 16px;
+  width: 35%;
+  height: auto;
+}
+
+.thumbnail-text {
+  width: 65%;
+  align-items: center;
+}
+
+.thumbnail-text .title {
+  line-height: 5px;;
+  color: #484848;
+  font-size: 1.9em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+
+
+.thumbnail-text p {
+  color: #888888;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.thumbnail-text a {
+  text-decoration: none;
+  color: #1C86EE;
+  font-size: 1.2em;
 }
