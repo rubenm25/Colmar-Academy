@@ -127,10 +127,12 @@ span {
 .thumbnail-text {
   width: 65%;
   align-items: center;
+  margin: 0;
+  padding: 0;
+
 }
 
-.thumbnail-text .title {
-  line-height: 5px;;
+.thumbnail-text span {
   color: #484848;
   font-size: 1.9em;
   padding-top: 8px;
