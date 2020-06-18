@@ -5,6 +5,20 @@ body {
 }
 
 /* HEADER SECTION */
+h1 {
+  color: #404040;
+  font-size: 2.7em;
+}
+
+h2 {
+  color: #404040;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
 
 header {
   background-color: #fff;
@@ -22,6 +36,7 @@ header {
 .logo {
   margin-left: 24px;
 }
+
 nav {
   flex-grow: 1;
   text-align: right;
@@ -46,109 +61,184 @@ span {
   font-weight: 300;
 }
 
-.main {
+/* BANNER SECTION */
+
+.banner {
+  background-color: #D3D3D3;
   padding-top: 64px;
 }
 
- /* BANNER SECTION */
-
-.banner {
-  height: 700px;
-  background-color: #DCDCDC;
-}
-
-.banner img {
-  margin: 32px 24px;
-  width: 60%;
-}
-
-.start {
-  margin: auto;
-}
-
-.start h1 {
-  color: #484848;
-  font-size: 3em;
-}
-
-.start p {
-  color: #585858;
-  font-size: 1.5em;
-  line-height: 40px;
-  font-weight: 600;
-}
-
-.start a {
-  text-decoration: none;
-}
-
-.btn {
-  text-align: center;
-  text-decoration: none;
-  width: 80%;
-  margin: 0 auto;
-  background-color: #484848;
-}
-
-.btn p {
-  color: #fff;
-  font-size: 1.5em;
-  text-decoration: none;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-/* INFO SECTION */
-
 .left {
-  width: 60%;
   padding: 32px 24px;
+  width: 60%;
+  height: auto;
 }
 
 .left img {
-  padding-top: 16px;
   width: 100%;
+  height: auto;
 }
+
 .right {
   padding: 32px 24px;
   width: 40%;
 }
 
-.thumbnail {
-  height: 30%;
+.wrap-banner {
+  width: 30%;
+  margin: auto;
+  padding-right: 10%;
+  padding-left: 3%;
 }
 
-.thumbnail img {
-  padding: 16px;
-  width: 35%;
+.btn {
+  text-align: center;
+  color: #fff;
+  background-color: #404040;
+  width: 95%;
+}
+
+.btn p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 1.4em;
+}
+
+/* INFO SECTION */
+
+.info h1 {
+  font-size: 2.4vw;
+}
+
+.left p {
+  color: #A0A0A0;
+  font-weight: light;
+}
+
+.thumbnail {
+  height: 32%;
+}
+
+.thumbnail-txt {
+  margin: auto;
+  width: 65%;
   height: auto;
 }
 
-.thumbnail-text {
-  width: 65%;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-
+.thumbnail img {
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
 }
 
-.thumbnail-text span {
-  color: #484848;
-  font-size: 1.9em;
-  padding-top: 8px;
-  padding-bottom: 8px;
+#title {
+  color: #404040;
+  font-size: 1.7vw;
   font-weight: bolder;
+  margin: 0px;
 }
 
-
-.thumbnail-text p {
-  color: #888888;
-  font-size: 1.1em;
-  font-weight: 300;
+.thumbnail p {
+  font-size: 1.1vw;
+  color: #909090;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
-.thumbnail-text a {
-  text-decoration: none;
-  color: #1C86EE;
+.thumbnail a {
+  color: #3299CC;
+  font-size: 1.1vw;
+  margin: 0px;
+}
+
+.start-learning {
+  background-color: #F5F5F5;
+}
+
+.wrap {
+  padding: 32px 72px;
+}
+
+.start-learning h1 {
+  font-size: 2.4vw;
+  text-align: center;
+}
+/* COURSES SECTION */
+.courses {
+  flex-wrap: wrap;
+}
+
+.text-wrap {
+  padding: 16px;
+}
+
+.item {
+  background-color: #fff;
+  width: 30%;
+  margin: 16px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item p {
+  color: #A0A0A0;
+  font-weight: 100;
   font-size: 1.2em;
+}
+
+/* THESIS SECTION  */
+
+.thesis h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.thesis video {
+  width: 100%;
+  height: auto;
+}
+
+.thesis h2 {
+  font-weight: bold;
+}
+
+.exhibit-thumbnail img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.exhibit-thumbnail p {
+  font-size: 1.1vw;
+  color: #909090;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  border-top: 1px solid gray;
+}
+
+.footer p {
+  color: #909090;
+}
+
+.copyright {
+    margin-left: 24px;
+}
+
+.terms {
+  text-align: right;
+  margin-right: 24px;
+  flex-grow: 1;
 }
