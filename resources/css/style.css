@@ -1,6 +1,8 @@
-body {
+*{
   margin: 0;
   padding: 0;
+}
+body {
   font-family: Verdana, sans-serif;
 }
 
@@ -59,6 +61,10 @@ nav a {
 span {
   color: #808080;
   font-weight: 300;
+}
+
+.nav-mbl {
+  display: none;
 }
 
 /* BANNER SECTION */
@@ -241,4 +247,23 @@ span {
   text-align: right;
   margin-right: 24px;
   flex-grow: 1;
+}
+
+/* MOBILE DESIGN */
+
+
+@media only screen and (max-width: 768px) {
+  /* NAVIGATION BAR */
+  .nav-dsk {
+    display: none;
+  }
+  .nav-mbl {
+    display: flex;
+    justify-content: space-around;
+  }
+/* BANNER */
+  .left {
+    padding: 0;
+  }
+  
 }
