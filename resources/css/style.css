@@ -177,6 +177,10 @@ span {
   text-align: center;
 }
 
+.author {
+  padding-top: 32px;
+}
+
 /* COURSES SECTION */
 .courses-mbl {
   display: none;
